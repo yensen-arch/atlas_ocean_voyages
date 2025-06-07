@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Adventurous Itineraries",
-  description: "From Antarctica and the Arctic to Europe and South America, every voyage is crafted for exploration and unforgettable moments.",
+  title: "Luxe-Adventure Experience",
+  description: "Combines luxury with bold exploration on stylish ships bound for Antarctica, the Arctic, and beyond.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "All-Inclusive Indulgence",
-  description: "Enjoy gourmet dining, premium beverages, gratuities, excursions, and more—always included in your fare.",
+  title: "All-Inclusive Promise",
+  description: "Everything from flights to excursions is included—luxury without hidden fees or compromises.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Yacht-Style Elegance",
-  description: "Sail aboard small, state-of-the-art ships with sleek design, spa services, and open-air observation decks.",
+  title: "Modern, Eco-Friendly Ships",
+  description: "Cruise with confidence aboard new vessels built for polar navigation and environmental stewardship.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Expert-Led Discovery",
-  description: "Onboard expedition teams and cultural experts lead every landing, hike, or zodiac tour with deep insight.",
+  title: "Sophisticated Social Spaces",
+  description: "Enjoy elegant lounges and curated dining that encourage connection among fellow explorers.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Atlas Ocean Voyages Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
